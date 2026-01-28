@@ -21,6 +21,9 @@
 - Backend: `http://localhost:3001`
 - Frontend: `http://localhost:5173`
 
+**Demo**
+https://1drv.ms/v/c/841e1eb0d9244a13/IQBm-7ZgA2gxRoEBKeC6EZl8AYbDAjbskpZut_u-MpIUVzY
+
 **Key Trade-offs / TODOs**
 - **Auth:** demo uses a simple `x-user` header; there is no real authentication/authorization flow. Replace with proper JWT/sessions for production.
 - **Audit & actions storage:** audit entries (and some in-memory action state) are stored in-process memory for simplicity. TODO: persist to the DB so logs survive restarts and scale across instances.
