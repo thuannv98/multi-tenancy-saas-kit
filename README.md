@@ -22,7 +22,7 @@
 - Frontend: `http://localhost:5173`
 
 **Video Demo**
-https://1drv.ms/v/c/841e1eb0d9244a13/IQBm-7ZgA2gxRoEBKeC6EZl8AYbDAjbskpZut_u-MpIUVzY
+[Here](https://1drv.ms/v/c/841e1eb0d9244a13/IQBm-7ZgA2gxRoEBKeC6EZl8AYbDAjbskpZut_u-MpIUVzY)
 
 **Key Trade-offs / TODOs**
 - **Auth:** demo uses a simple `x-user` header; there is no real authentication/authorization flow. Replace with proper JWT/sessions for production.
@@ -33,7 +33,3 @@ https://1drv.ms/v/c/841e1eb0d9244a13/IQBm-7ZgA2gxRoEBKeC6EZl8AYbDAjbskpZut_u-MpI
 - **CORS & dev relaxations:** CORS is permissive for local dev (origin reflection). Tighten before deploying.
 - **Validation & error handling:** request validation is minimal. Add DTOs, input validation and better error payloads for user-friendly UI messages.
 - **Testing / CI:** there are a few unit/e2e stubs. Add tests and CI for stability.
-
-If you'd like, I can:
-- Run the backend and perform a quick smoke test of the new endpoints, or
-- Harden one TODO (persist audits or move idempotency to DB). Which should I do next?
