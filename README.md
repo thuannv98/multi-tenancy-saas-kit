@@ -21,7 +21,7 @@
 - Backend: `http://localhost:3001`
 - Frontend: `http://localhost:5173`
 
-**Demo**
+**Video Demo**
 https://1drv.ms/v/c/841e1eb0d9244a13/IQBm-7ZgA2gxRoEBKeC6EZl8AYbDAjbskpZut_u-MpIUVzY
 
 **Key Trade-offs / TODOs**
